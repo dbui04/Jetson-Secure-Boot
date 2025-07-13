@@ -1,0 +1,43 @@
+<genericfuse MagicId="0x45535546" version="1.0.0">
+    <!-- <fuse name="OdmId" size="8" value="0xFFFFFFFFFFFFFFFF"/> -->
+    <!-- <fuse name="OdmInfo" size="4" value="0xFFFF"/> -->
+    <fuse name="ArmJtagDisable" size="4" value="0x1" />
+    <!-- <fuse name="DebugAuthentication" size="4" value="0x1F"/> -->
+    <fuse name="CcplexDfdAccessDisable" size="4" value="0x1" />
+    <!-- <fuse name="ReservedOdm0" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm1" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm2" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm3" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="OdmLock" size="4" value="0xF"/> -->
+    <!-- <fuse name="ReservedOdm4" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm5" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm6" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="ReservedOdm7" size="4" value="0xFFFFFFFF"/> -->
+    <!-- <fuse name="OptInEnable" size="4" value="0x1"/> -->
+    <!-- <fuse name="SwReserved" size="4" value="0xFFFFFF"/> -->
+    <!-- <fuse name="BootDevInfo" size="4" value="0xFFFFFF"/> -->
+    <!-- <fuse name="ZeroizeDis" size="4" value="0x1"/> -->
+    <fuse
+        name="PublicKeyHash"
+        size="64"
+        value="0x11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    />
+    <!-- <fuse name="PkcPubkeyHash1" size="64" value="0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/> -->
+    <!-- <fuse name="PkcPubkeyHash2" size="64" value="0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/> -->
+    <!-- <fuse name="EndorseKey" size="68" value="0x1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/> -->
+    <fuse
+        name="SecureBootKey"
+        size="32"
+        value="0x2222222222222222222222222222222222222222222222222222222222222222"
+    />
+    <!-- <fuse name="Kdk0" size="32" value="0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/> -->
+    <!-- <fuse name="PscOdmStatic" size="4" value="0xFFFFFFFF"/> -->
+    <fuse
+        name="OemK1"
+        size="32"
+        value="0x3333333333333333333333333333333333333333333333333333333333333333"
+    />
+    <!-- <fuse name="OemK2" size="32" value="0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/> -->
+    <fuse name="BootSecurityInfo" size="4" value="0x3eb" />
+    <fuse name="SecurityMode" size="4" value="0x1" />
+</genericfuse>
