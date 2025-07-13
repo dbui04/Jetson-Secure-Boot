@@ -201,6 +201,7 @@ sudo tools/gen_uefi_keys_dts.sh <uefi_keys.conf path>
   - Flash the device with the script specified #link(<flashing_script>)[*above*].
 
 = Disk Encryption <disk_encryption>
+- Note: Check out the #link("https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/SD/Security/DiskEncryption.html#quick-guide")[*Quick guide*] on the official website to install necessary dependencies.
 - The disk encryption key is generated and stored in the #link(<ekb>)[*EKB*] when flashed (only if specified, which the `example.sh` script does). Therefore the encrypted disk can be safely unlocked automatically by the bootloader by reading from the EKB in the secure world.
 - The #link(<flashing_script>)[*flashing script*] mentioned above uses a dedicated partition table for the NVMe, specified in the `flash_l4t_t234_nvme_rootfs_enc.xml` file in this directory. Remember to double-check this file's path in the flashing script.
   - Also, double-check the `num_sectors` field in this file. The value is related to the size of the NVMe. To determine this value (on Linux):
