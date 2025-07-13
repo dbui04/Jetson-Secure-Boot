@@ -10,6 +10,13 @@ This document was created on the basis of the official [NVIDIA developer guide f
 
 The (my own) scripts and configuration files to enable secure boot can be found in this directory
 
+= Notes:
+- On the host, type these commands to prevent USB timeout error while flashing devices:
+```
+sudo -s
+echo -1 > /sys/module/usbcore/parameters/autosuspend
+```
+
 = Overview
 - Secure Boot prevents unauthorized code from running on the device.
 - NVIDIA SoCs contain multiple #link(<fuses>)[*fuses*] that control different items for security and boot.
